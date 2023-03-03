@@ -7,6 +7,10 @@ body {
     box-sizing: border-box;
     font-family: 'Quicksand', sans-serif !important;
 
+    @media screen and (max-width: 425px) {
+        overflow: hidden !important;
+    }
+
     main {
         background: linear-gradient(rgba(0, 0, 0, 0.514), rgba(0,0,0,0.514)), url('assets/images/patternpad.svg');
         background-position: center;
@@ -20,6 +24,10 @@ body {
         .signUp__login {
             width: 400px;
             border-radius: 10px;
+
+            @media screen and (max-width: 425px) {
+                max-width: 350px;
+            }
 
             .form-control {
                 padding: 10px 15px;
