@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+body {
+  margin: 0%;
+  padding: 0%;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif !important;
+}
+body main {
+  background: linear-gradient(rgba(0, 0, 0, 0.514), rgba(0, 0, 0, 0.514)), url("assets/images/patternpad.svg");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body main .signUp__login {
+  width: 400px;
+  border-radius: 10px;
+}
+body main .signUp__login .form-control {
+  padding: 10px 15px;
+  border-radius: 10px;
+  box-shadow: none;
+}
+body main .signUp__login .form-control:focus {
+  border-color: #7e8ecd !important;
+}
+body main .signUp__login .btn {
+  background-color: #7e8ecd;
+  padding: 10px 15px;
+  border-radius: 10px;
+  border-color: #7e8ecd;
+  box-shadow: none !important;
+}
+body main .signUp__login .link {
+  color: #7e8ecd !important;
+}/*# sourceMappingURL=style.css.map */
